@@ -96,7 +96,6 @@ const HostsForm: React.FC<HostsFormProps> = ({ control, handleChange }) => {
             clusterDeployment={clusterDeployment}
             agentClusterInstall={agentClusterInstall}
             agents={agents}
-            hostActions={{}}
             error={error}
         />
     ) : (
